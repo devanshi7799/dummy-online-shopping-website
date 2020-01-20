@@ -1,0 +1,83 @@
+body{
+    background-color:  #fff8e6;
+    background-image: linear-gradient(#fff8e6,  #ffc299);
+    margin: 0px;
+}
+
+/* Index page */
+.mainPage h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Lucidatypewriter, monospace;
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 3px orangered;
+}
+
+.mainPage img{
+    margin-top: -70px;
+    height: 35%;
+}
+
+.mainPage button{
+    margin: auto;
+    padding: 15px 30px;
+    width: 25%;
+    color: black;
+    font-size: 15px;
+    background: orangered;
+    font-family: Lucidatypewriter, monospace;
+    border: 1px solid black;
+}
+
+/* shop page*/
+.head .logo img{
+    object-fit: cover;
+    height: 15%;
+    width: 20%;
+}
+
+.navbar{
+    background-color: coral;
+    height: 5%;
+    width: 100%;
+    margin: 0px;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    float: right;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar ul li:hover{
+    background-color: chocolate;
+    float: right;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.mainContent {
+    margin: 0px;
+}
+
+.mainContent .list{
+    height: 100%;
+    width: 25%;
+    background-color: aqua;
+    margin: 0px;
+    text-align: left;
+}
+
+.mainContent .list ul{
+    list-style-type: none;
+}
+
+.mainContent .list ul li{
+    padding: 20px 0px;
+    font-size: 20px;
+}
